@@ -1,0 +1,50 @@
+.first-container{
+    background: purple;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+
+}
+body{
+    background: #fff;
+    
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container{
+    display: flex;
+    
+}
+.left-side{
+    width: 200px;
+    height: 68vh;
+    padding: 20px;
+    background: rgb(241, 110, 241);
+}
+.left-side a{
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+    color: #252020;
+    cursor: pointer;
+    
+}
+.left-side a:hover{
+    background: #fff;
+    color: blue;
+    border-radius: 6px;
+}
+.right-side{
+    margin-left: 20px;
+    padding: 20px;
+}
+.footer{
+    
+    background: purple;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
