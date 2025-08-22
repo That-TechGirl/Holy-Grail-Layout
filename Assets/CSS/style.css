@@ -6,6 +6,7 @@
 
 }
 body{
+    
     background: #fff;
     
 }
@@ -38,7 +39,7 @@ body{
     border-radius: 6px;
 }
 .right-side{
-    margin-left: 20px;
+   
     padding: 20px;
 }
 .footer{
@@ -47,4 +48,13 @@ body{
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+@media(max-width: 500px){
+    .first-container{
+        max-width: 100vh;
+}
+.right-side{
+    padding: 5px;
+}
 }
